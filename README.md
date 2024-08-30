@@ -9,6 +9,7 @@ Currently, two official plugins are available:
 
 
 Additional package used to build the project:
+```
 # for react skeletons
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
@@ -19,3 +20,4 @@ npm install @react-three/fiber
 npm install @react-three/drei
 
 npm install @react-spring/three      # for animation
+```
