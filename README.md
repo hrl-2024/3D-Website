@@ -20,4 +20,6 @@ npm install @react-three/fiber
 npm install @react-three/drei
 
 npm install @react-spring/three      # for animation
+
+npm install @emailjs/browser   # for email submission
 ```
