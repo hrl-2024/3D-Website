@@ -10,9 +10,7 @@ const Sky = ({ isRotating }) => {
   const skyRef = useRef()
 
   useFrame((_, delta) => {
-    if (isRotating) {
-      skyRef.current.rotation.y += 0.15 * delta;
-    }
+    skyRef.current.rotation.y += 0.05 * delta;
   })
 
   return (
