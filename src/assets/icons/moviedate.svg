@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; }
+  </style>
+  
+  <!-- "Movie" text -->
+  <text x="10" y="60" class="text" font-size="48" fill="black">Movie</text>
+  
+  <!-- "Date" text in a box open on the left -->
+  <path d="M150 10 h140 v80 h-140" fill="none" stroke="black" stroke-width="2"/>
+  <text x="165" y="60" class="text" font-size="48" fill="black">Date</text>
+  
+  <!-- Dotted line connecting the words -->
+  <line x1="135" y1="50" x2="150" y2="50" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

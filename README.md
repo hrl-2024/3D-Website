@@ -22,4 +22,6 @@ npm install @react-three/drei
 npm install @react-spring/three      # for animation
 
 npm install @emailjs/browser   # for email submission
+
+npm i react-vertical-timeline-component # for About page's project timeline
 ```
