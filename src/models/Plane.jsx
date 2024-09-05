@@ -11,9 +11,9 @@ const Plane = ({ isRotating, ...props }) => {
   useEffect(() => {
     console.log('isRotating', isRotating);
     if (isRotating) {
-        actions['Take 001'].play();
+        actions['Take 001'].reset().fadeIn(1).play();
     } else {
-        actions['Take 001'].stop();
+        actions['Take 001'].fadeOut(2);
     }
   }, [actions, isRotating])
 
