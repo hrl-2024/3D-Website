@@ -64,7 +64,7 @@ export const experiences = [
     {
       title: "Undergraduate Teaching/Course Assistant",
       company_name: "Boston University Department of Computer Science",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Boston_University_wordmark.svg",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/3/31/Boston_University_wordmark.svg",
       iconBg: "#CC0000",
       date: "Sep 2022 - Dec 2022; Jan 2024 - Current",
       points: [
