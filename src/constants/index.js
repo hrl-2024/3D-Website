@@ -3,11 +3,6 @@ import * as icons from "../assets/icons"
 
 export const skills = [
     {
-        imageUrl: icons.css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
         imageUrl: icons.git,
         name: "Git",
         type: "Version Control",
@@ -16,6 +11,26 @@ export const skills = [
         imageUrl: icons.github,
         name: "GitHub",
         type: "Version Control",
+    },
+    {
+        imageUrl: icons.python,
+        name: "Python",
+        type: "Language",
+    },
+    {
+        imageUrl: icons.java,
+        name: "Java",
+        type: "Language",
+    },
+    {
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg',
+        name: "C",
+        type: "Language",
+    },
+    {
+        imageUrl: icons.go,
+        name: "Go",
+        type: "Language",
     },
     {
         imageUrl: icons.html,
@@ -28,13 +43,13 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: icons.mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
         imageUrl: icons.react,
         name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: icons.css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -46,6 +61,51 @@ export const skills = [
         imageUrl: icons.typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: icons.flutter,
+        name: "Flutter",
+        type: "Frontend"
+    },
+    {
+        imageUrl: icons.mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: icons.mySQL,
+        name: "mySQL",
+        type: "Database"
+    },
+    {
+        imageUrl: icons.firebase,
+        name: "firebase",
+        type: "Database"
+    },
+    {
+        imageUrl: icons.flask,
+        name: "Flask",
+        type: "Server"
+    },
+    {
+        imageUrl: icons.springboot,
+        name: "Spring boot",
+        type: "Server"
+    },
+    {
+        imageUrl: icons.pandas,
+        name: "pandas",
+        type: "Data Analysis"
+    },
+    {
+        imageUrl: icons.android,
+        name: "Android",
+        type: "Mobile"
+    },
+    {
+        imageUrl: icons.swift,
+        name: "iOS Swift",
+        type: "Mobile"
     }
 ]
 
