@@ -25,3 +25,8 @@ npm install @emailjs/browser   # for email submission
 
 npm i react-vertical-timeline-component # for About page's project timeline
 ```
+
+# How to run this project:
+use `npm run dev` to run the website locally (also during development)
+
+After you've done with developing it, use `npm run build` to build a stable version
