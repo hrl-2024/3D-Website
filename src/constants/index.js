@@ -159,14 +159,14 @@ export const projects = [
       theme: 'btn-back-blue',
       name: 'ChessMS',
       description: 'Developed ChessMS, a chess AI agent on SMS Text, which won at BostonHack 2022. Designed and deployed a serverless database using CockroachDB and connected a local Flask server with Twilio clients using ngrok and WebHook.',
-      link: 'https://github.com/hrl-2024/ChessMS',
+      link: 'https://devpost.com/software/chessms-8ta6j9',
     },
     {
       iconUrl: icons.doodlejump,
       theme: 'btn-back-green',
       name: 'Doodle Jump AI',
       description: 'Created an AI agent to play Doodle Jump using the NEAT algorithm, a genetic AI algorithm. Explored various input features and reward systems, adjusting NEAT algorithm parameters for optimal results.',
-      link: 'https://github.com/hrl-2024/DoodleJumpAI',
+      link: 'https://github.com/alexjmiller5/DoodleJump-NEAT-AI',
     },
     {
       iconUrl: icons.ai,
