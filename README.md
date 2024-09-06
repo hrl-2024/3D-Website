@@ -32,3 +32,6 @@ use `npm run dev` to run the website locally (also during development)
 
 After you've done with developing it, use `npm run build` to build a stable version.
 You can find the version in dist folder, and you can use that to deploy the website to your domain.
+
+# Deployment:
+Package used: `npm install gh-pages --save-dev`
