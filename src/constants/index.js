@@ -172,8 +172,7 @@ export const projects = [
       iconUrl: icons.ai,
       theme: 'btn-back-pink',
       name: 'AI Ball Balancing Robot',
-      description: 'Leveraged reinforcement learning techniques to train an AI agent for real-time ball balancing on a robot. Engineered bespoke mechanisms with signal processing capabilities, using UART communication to translate AI predictions into precise robotic arm movements.',
-      link: 'https://github.com/hrl-2024/AIBallBalancingRobot',
+      description: 'Leveraged reinforcement learning techniques to train an AI agent for real-time ball balancing on a robot. Engineered bespoke mechanisms with signal processing capabilities, using UART communication to translate AI predictions into precise robotic arm movements.'
     },
     {
       iconUrl: icons.moviedate,
@@ -186,7 +185,6 @@ export const projects = [
       iconUrl: cloudcomputing,
       theme: 'btn-back-purple',
       name: 'Distributed Data Processing Systems',
-      description: 'Developed a custom MapReduce system in Go, employing parallel computation to optimize distributed data processing. Engineered a RAFT-based distributed system in Go for robust log consensus in a distributed setting.',
-      link: 'https://github.com/hrl-2024/DistributedSystems',
+      description: 'Developed a custom MapReduce system in Go, employing parallel computation to optimize distributed data processing. Engineered a RAFT-based distributed system in Go for robust log consensus in a distributed setting.'
     },
   ]
