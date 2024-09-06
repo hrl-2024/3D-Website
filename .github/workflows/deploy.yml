@@ -19,7 +19,7 @@ jobs:
         node-version: '22'  # Specify the Node.js version
 
     - name: Install dependencies
-      run: npm install -D tailwindcss postcss autoprefixer react-router-dom @react-three/fiber @react-three/drei @react-spring/three @emailjs/browser react-vertical-timeline-component
+      run: npm ci
 
     - name: Build project
       env:
