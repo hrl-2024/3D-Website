@@ -35,3 +35,8 @@ You can find the version in dist folder, and you can use that to deploy the webs
 
 # Deployment:
 Package used: `npm install gh-pages --save-dev`
+
+Then just `npm run deploy` (only need to do this for subsequent updates)
+
+After that, go to github repo page --> Settings --> Pages (under ``Code and automation``) --> Build and deployment -->
+choose "Deploy from a Branch" --> choose "gh-pages" branch, "/(root)", and save.
