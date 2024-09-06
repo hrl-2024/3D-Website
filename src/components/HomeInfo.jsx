@@ -3,6 +3,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { arrow } from '../assets/icons'
 
+const base = import.meta.env.VITE_BASE_URL;
+
 const InfoBox = ({ text, link, btnText }) => (
     <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>{text}</p>
@@ -24,21 +26,21 @@ const renderContend = {
     2: (
         <InfoBox
             text="Looking for full time SWE job"
-            link = "/about"
+            link = {`${base}about`}
             btnText="Learn More"
         />
     ),
     3: (
         <InfoBox
             text="Worked on multiple projects"
-            link = "/projects"
+            link = {`${base}projects`}
             btnText="Visit my portfolio"
         />
     ),
     4: (
         <InfoBox
             text="Need a project done or looking for a dev? I'm just a few keystrokes away"
-            link = "/contact"
+            link = {`${base}contact`}
             btnText="Let's Talk"
         />
     )
