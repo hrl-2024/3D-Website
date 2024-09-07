@@ -34,6 +34,8 @@ After you've done with developing it, use `npm run build` to build a stable vers
 You can find the version in dist folder, and you can use that to deploy the website to your domain.
 
 # Deployment:
+Refer to https://github.com/gitname/react-gh-pages
+
 Package used: `npm install gh-pages --save-dev`
 
 Then just `npm run deploy` (only need to do this for subsequent updates)
