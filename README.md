@@ -12,9 +12,10 @@ After the template, remember to `npm install` before `npm run dev` to install th
 
 Additional package used to build the project:
 ```
-# for react skeletons
+# for tailwindcss:
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
 npm install react-router-dom  
 
 # for 3d model:
