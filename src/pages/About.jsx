@@ -15,7 +15,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          I am a software engineer based in Boston, MA. 
+          I am a software engineer with bachalor and master degree in Computer Science. 
           I have a passion for coding and love to learn new technologies.
           I have experience in building web applications using React, Node.js.
           I am also familiar with databases such as MongoDB, mySQL, PostgreSQL.

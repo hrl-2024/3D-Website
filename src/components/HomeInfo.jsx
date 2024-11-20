@@ -20,7 +20,7 @@ const renderContend = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Hi, I am <span className='font-semibold'>Ruihang</span> 👋
             <br />
-            A software engineer based in <span className='font-semibold'>Boston</span>
+            Software engineer; BA/MS in Computer Science.
         </h1>
     ),
     2: (
