@@ -30,6 +30,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import springboot from './springboot.svg'
+import synergies from './synergies.png'
 
 export {
     ai,
@@ -63,5 +64,6 @@ export {
     contact,
     soundon,
     soundoff,
-    springboot
+    springboot,
+    synergies
 }

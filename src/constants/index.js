@@ -111,6 +111,16 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Full Stack Software Engineer Intern",
+        company_name: "Synergies Intelligent Systems",
+        icon: icons.synergies,
+        iconBg: "#F3F3F3",
+        date: "Sep 2024 - Present",
+        points: [
+            "Design, modify and optimize the front-end of our e-commerce website to enhance user experience and performance.",
+            "Integrate AI models into the website to enhance functionality and provide advanced features to users."]
+    },
+    {
         title: "Software Engineer Intern",
         company_name: "iQiyi.com",
         icon: icons.iQiyi,
