@@ -136,7 +136,7 @@ export const experiences = [
         company_name: "Boston University Department of Computer Science",
         icon: "https://upload.wikimedia.org/wikipedia/commons/3/31/Boston_University_wordmark.svg",
         iconBg: "#CC0000",
-        date: "Sep 2022 - Dec 2022; Jan 2024 - Current",
+        date: "Sep 2022 - Dec 2022; Jan 2024 - May 2024",
         points: [
             "Tutored 180+ students in functional programming, OCaml and Android application development in office hours.",
             "Participated in assignment making to enhance student learning.",
@@ -199,8 +199,20 @@ export const projects = [
     },
     {
         iconUrl: cloudcomputing,
-        theme: 'btn-back-purple',
+        theme: 'btn-back-red',
         name: 'Distributed Data Processing Systems',
         description: 'Developed a custom MapReduce system in Go, employing parallel computation to optimize distributed data processing. Engineered a RAFT-based distributed system in Go for robust log consensus in a distributed setting.'
     },
+    {
+        iconUrl: cloudcomputing,
+        theme: 'btn-back-blue',
+        name: 'Smart Operator Placement for Stream Processing at the Edge',
+        description: 'Optimized Flink scheduler for operator placement on Raspberry Pis and cloud, reducing bandwidth and latency. Designed query parsing and cost models for dynamic workload distribution. Validated performance through experiments on a heterogeneous edge-cloud computing cluster.'
+    },
+    {
+        iconUrl: icons.multithreading,
+        theme: 'btn-back-orange',
+        name: 'SQL Database Query System',
+        description: 'Developed an SQL Query System with provenance support, explaining query results via where-, how-, and why-provenance through metadata propagation. Engineered multi-threaded query execution by strategically identifying parallelizable operators, optimizing load distribution, and efficiently merging results, achieving a 50% speedup.'
+    }
 ]

@@ -15,6 +15,7 @@ import java from './java.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import moviedate from './moviedate.svg'
+import multithreading from './multi-threading.png'
 import mySQL from './mySQL.png'
 import pandas from './pandas.svg'
 import python from './python.svg'
@@ -50,6 +51,7 @@ export {
     javascript,
     mongodb,
     moviedate,
+    multithreading,
     mySQL,
     pandas,
     python,
