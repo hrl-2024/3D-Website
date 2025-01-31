@@ -117,8 +117,14 @@ export const experiences = [
         iconBg: "#F3F3F3",
         date: "Sep 2024 - Present",
         points: [
-            "Design, modify and optimize the front-end of our e-commerce website to enhance user experience and performance.",
-            "Integrate AI models into the website to enhance functionality and provide advanced features to users."]
+            "Collaborated in a multidisciplinary team to align product objectives, boost engagement, and refine user experience.",
+            "Integrated AI models into websites to boost sales, contributing to $500,000 in revenue within the first month.",
+            "Built a scalable backend server and database storage with SQL, RESTful APIs, and maintainable documentation.",
+            "Optimized data storage by using a single template to dynamically generate documents, reducing file size by 90%.",
+            "Implemented responsive UI components and reusable component libraries using React and Tailwind CSS.",
+            "Optimized React algorithm to reduce lag, enabling smooth, adaptive user interactions.",
+            "Used Selenium to automate web app testing and web scraping.",
+        ]
     },
     {
         title: "Software Engineer Intern",
@@ -128,7 +134,8 @@ export const experiences = [
         date: "Jun 2023 - Aug 2023",
         points: [
             "Architected with Spring Boot framework to enhance the performance of iQiyi's 110.7 million users' Big Data Platform, reducing response time from 3 mins to 20 secs with multi-threaded system design.",
-            "Crafted scalable APIs to bridge backend technologies with front-end UIs for data scientists.",
+            "Implemented system monitoring to identify and resolve resource quota issues in horizontally scaled applications.",
+            "Developed scalable APIs to integrate backend SQL databases with front-end tools used by data scientists.",
         ],
     },
     {
@@ -195,13 +202,13 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'MovieDate',
         description: 'Architected backend server and wrote HTTP RESTFUL API for a social media application. Enhanced relational database performance with indexes, foreign keys, and database design, balancing storage and speed. Deployed CockroachDB for high availability and throughput.',
-        link: 'https://github.com/hrl-2024/MovieDate',
+        link: 'https://github.com/hrl-2024/MovieDate/tree/main/backend',
     },
     {
         iconUrl: cloudcomputing,
         theme: 'btn-back-red',
         name: 'Distributed Data Processing Systems',
-        description: 'Developed a custom MapReduce system in Go, employing parallel computation to optimize distributed data processing. Engineered a RAFT-based distributed system in Go for robust log consensus in a distributed setting.'
+        description: 'Developed a custom MapReduce system in Go, strategically employing parallel computation to optimize distributed data processing, thereby significantly enhancing availability and throughput. Engineered a RAFT-based distributed systems in Go, verified by MIT 6.824 testing script, for robust log consensus in a distributed setting.'
     },
     {
         iconUrl: cloudcomputing,
@@ -213,6 +220,6 @@ export const projects = [
         iconUrl: icons.multithreading,
         theme: 'btn-back-orange',
         name: 'SQL Database Query System',
-        description: 'Developed an SQL Query System with provenance support, explaining query results via where-, how-, and why-provenance through metadata propagation. Engineered multi-threaded query execution by strategically identifying parallelizable operators, optimizing load distribution, and efficiently merging results, achieving a 50% speedup.'
+        description: 'Developed an SQL Query System with provenance support, explaining query results via where-, how-, and why-provenance through metadata propagation. Engineered multi-threaded query execution by strategically identifying parallelizable operators, optimizing load distribution, and efficiently merging results, achieving a 50% speedup. Designed comprehensive unit tests, including edge cases, to ensure program correctness and robustness.'
     }
 ]
