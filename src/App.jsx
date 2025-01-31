@@ -2,18 +2,18 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import { Home, About, Projects, Contact } from './pages'
 
-const base = import.meta.env.VITE_BASE_URL;
+const base = import.meta.env.VITE_BASE_URL || '/3D-Website/';
 
 const App = () => {
   return (
     <main className="bg-slate-300/20">
-        <Router>
+        <Router basename={base}>
             <Navbar baseurl={base}/>
             <Routes>
-                <Route path={`${base}`} element={<Home />} />
-                <Route path={`${base}about`} element={<About />} />
-                <Route path={`${base}projects`} element={<Projects />} />
-                <Route path={`${base}contact`} element={<Contact />} />
+                <Route path="/" element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="contact" element={<Contact />} />
             </Routes>
         </Router>
     </main>
