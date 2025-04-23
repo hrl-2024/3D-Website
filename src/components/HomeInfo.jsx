@@ -26,21 +26,21 @@ const renderContend = {
     2: (
         <InfoBox
             text="Looking for full time SWE job"
-            link = {`${base}about`}
+            link = {`/about`}
             btnText="Learn More"
         />
     ),
     3: (
         <InfoBox
             text="Worked on multiple projects"
-            link = {`${base}projects`}
+            link = {`/projects`}
             btnText="Visit my portfolio"
         />
     ),
     4: (
         <InfoBox
             text="Need a project done or looking for a dev? I'm just a few keystrokes away"
-            link = {`${base}contact`}
+            link = {`/contact`}
             btnText="Let's Talk"
         />
     )
