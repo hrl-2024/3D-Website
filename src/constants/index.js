@@ -161,7 +161,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: icons.github,
-        link: 'https://github.com/hrl-2024',
+        link: 'https://github.com/rhl-wex',
     },
     {
         name: 'LinkedIn',
@@ -176,7 +176,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Concurrency AI Server',
         description: 'Created AI text-to-image models and 2D-to-3D models with StableDiffusion, TrioSR and ComfyUI. Integrate AI models to scalable backend servers with Celery workers and Prometheus stats for higher throughput. Developed APIs using Python Flask for frontend CRUD, enabling image uploads and prompt submission for appropriate models, job queueing, worker allocation, result retrieval, and endpoint monitoring. Modified ComfyUI system code to work with backend task assignment and job status update. Wrote detailed deployment documentations and API documentations for future maintainability.',
-        link: 'https://github.com/hrl-2024/Concurrent-AI-Backend-Server',
+        link: 'https://github.com/rhl-wex/Concurrent-AI-Backend-Server',
     },
     {
         iconUrl: icons.ai,
@@ -209,7 +209,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'MovieDate',
         description: 'Architected backend server and wrote HTTP RESTFUL API for a social media application. Enhanced relational database performance with indexes, foreign keys, and database design, balancing storage and speed. Deployed CockroachDB for high availability and throughput.',
-        link: 'https://github.com/hrl-2024/MovieDate/tree/main/backend',
+        link: 'https://github.com/rhl-wex/MovieDate/tree/main/backend',
     },
     {
         iconUrl: cloudcomputing,
