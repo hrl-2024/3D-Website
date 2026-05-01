@@ -32,6 +32,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import springboot from './springboot.svg'
 import synergies from './synergies.png'
+import wex from './wex.png'
 
 export {
     ai,
@@ -67,5 +68,6 @@ export {
     soundon,
     soundoff,
     springboot,
-    synergies
+    synergies,
+    wex
 }

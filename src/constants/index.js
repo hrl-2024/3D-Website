@@ -111,11 +111,25 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Engineer",
+        company_name: "WEX",
+        icon: icons.wex,
+        iconBg: "#F3F3F3",
+        date: "June 2025 - Present",
+        points: [
+            "Engineered an API Al Assistant (AAA) utilizing a secure Proxy Identity Architecture and Autho integration, deploying a self-service partner onboarding flow that eliminated manual Auth provisioning bottlenecks and enforced secure usage limits.",
+            "Accelerated core API processing speeds by over 80% (reducing \"Create Card\" latency from 11 seconds to ~2 seconds) by optimizing direct OpenSearch connections, configuring client pools, and validating stability through comprehensive load testing.",
+            "Modernized Fleet API v3 microservices by implementing dynamic HATEOAS pagination and RESTful resource linking via MvcUriComponentsBuilder, significantly improving ecosystem discoverability.",
+            "Implemented foundational CI/CD pipelines for Secure Telematics from the ground up, utilizing Kubernetes App-of-Apps to manage complex multi-cluster deployments and establishing foundational observability with Grafana/Prometheus.",
+            "Developed a scalable \"Kill Switch\" automation tool for Fleet Services that safely deactivates DriverDash users in bulk by modifying provisioning statuses and traversing account ancestry IDs.",
+        ]
+    },
+    {
         title: "Full Stack Software Engineer Intern",
         company_name: "Synergies Intelligent Systems",
         icon: icons.synergies,
         iconBg: "#F3F3F3",
-        date: "Sep 2024 - Present",
+        date: "Sep 2024 - April 2025",
         points: [
             "Collaborated in a multidisciplinary team to align product objectives, boost engagement, and refine user experience.",
             "Integrated AI models into websites to boost sales, contributing to $500,000 in revenue within the first month.",
