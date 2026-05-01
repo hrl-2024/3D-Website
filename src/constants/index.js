@@ -118,7 +118,7 @@ export const experiences = [
         date: "June 2025 - Present",
         points: [
             "Engineered an API Al Assistant (AAA) utilizing a secure Proxy Identity Architecture and Autho integration, deploying a self-service partner onboarding flow that eliminated manual Auth provisioning bottlenecks and enforced secure usage limits.",
-            "Accelerated core API processing speeds by over 80% (reducing \"Create Card\" latency from 11 seconds to ~2 seconds) by optimizing direct OpenSearch connections, configuring client pools, and validating stability through comprehensive load testing.",
+            "Accelerated core API processing speeds by over 80% (reducing \"Create Card\" latency from 11 seconds to ~2 seconds) by bypassing asynchronous Kafka stream/OpenSearch pipelines and driectly mapping Siebel database records to the API response model.",
             "Modernized Fleet API v3 microservices by implementing dynamic HATEOAS pagination and RESTful resource linking via MvcUriComponentsBuilder, significantly improving ecosystem discoverability.",
             "Implemented foundational CI/CD pipelines for Secure Telematics from the ground up, utilizing Kubernetes App-of-Apps to manage complex multi-cluster deployments and establishing foundational observability with Grafana/Prometheus.",
             "Developed a scalable \"Kill Switch\" automation tool for Fleet Services that safely deactivates DriverDash users in bulk by modifying provisioning statuses and traversing account ancestry IDs.",
